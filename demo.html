@@ -270,8 +270,121 @@
 							</a>
 							<p>Download<a href="https://git-scm.com/downloads"> GIT</a></p>
 						</section>
-				</section>
+						<section data-background="#dddddd">
+							<h2>Cria um novo projeto / repositório no GITHUB</h2>
+							<a href="#" class="navigate-down">
+								<img height="350" data-src="img/github.png" alt="Página do GITHUB">
+							</a>
+							<p>Download<a href="https://github.com"> GITHUB</a></p>
+						</section>
+						<section data-markdown>
+							<script type="text/template">
+								## Comandos iniciais do GIT 
+								### para configuração da máquina
+								### só precisa 1x na máquina
+								```
+								git config --global user.name "Seu Nome"
+								```
+								```
+								git config --global user.email email@example.com
+								```
+							</script>
+						</section>
+						<section data-markdown>
+							<script type="text/template">
+								### Agora na pasta do projeto 
+								### só precisa 1x
 
+								```
+								git init
+								```
+								```
+								git remote add origin exemploLink
+								```
+							</script>
+						</section>
+						<section data-markdown>
+							<script type="text/template">
+								### Agora na pasta do projeto 
+								### toda vez que tiver atualização
+
+								```
+								git status
+								```
+								```
+								git add .
+								```
+								```
+								git commit -m "seu texto"
+								```
+								```
+								git push origin estaçãoDeTrabalho
+								```
+							</script>
+						</section>
+				</section>
+				<!-- CSS -->
+				<section>
+						<section>
+							<h3>CSS</h3>
+							<p>Cascading Style Sheets são instruções para adicionar estilo a um documento web.</p>
+						</section>
+						<section data-markdown>
+							<script type="text/template">
+								## Para a tag header
+		
+								```
+								.intro {
+									color: white;
+									text-align: center;
+									margin-top: 7%;
+								}
+								```
+							</script>
+						</section>
+						<section data-markdown>
+							<script type="text/template">
+								## Para a imagem dentro do header
+		
+								```
+								.intro img {
+									border-radius: 50%;
+									max-width: 20%;
+									max-height: 20%;
+								}
+								```
+							</script>
+						</section>
+						<section data-markdown>
+							<script type="text/template">
+								## Para alinhar os itens da lista
+		
+								```
+								.lista-linha {
+									padding-left: 0;
+									list-style: none;
+								}
+								```
+								```
+								.lista-linha li{
+									display: inline-block;
+								}
+								```
+							</script>
+						</section>
+						<section data-markdown>
+							<script type="text/template">
+								## Trocar a fonte do Header
+		
+								```
+								.font-header{
+									font-family: 'Nunito', sans-serif;
+								}
+								```
+							</script>
+						</section>
+						
+				</section>
 
 			</div>
 
